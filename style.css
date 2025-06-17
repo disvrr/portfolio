@@ -1,3 +1,106 @@
 html{
-    background-color: black;
+background-color: black;
+}
+body {
+  display: flex;  
+  position: relative;   
+  justify-content: center; 
+  align-items: center;        
+  height: 100vh;            
+  margin: 0;       
+  font-family: 'Manrope', sans-serif; 
+}
+.mainWin{
+position: absolute;
+border-radius: 12px;
+background: linear-gradient(180deg, #100341 36.87%, #610561 100%);
+width: 476px;
+height: 571px;
+flex-shrink: 0;
+z-index: 2;
+}
+.text{
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#createAcc{
+position: absolute;
+width: 308px;
+height: 55px;
+top: 96px;
+left: 158px;
+flex-shrink: 0;
+}
+#entName{
+position: absolute;
+width: 178px;
+height: 27px;
+flex-shrink: 0;
+top: 179px;
+left: 84px;
+}
+#entEmail{
+position: absolute;
+width: 178px;
+height: 27px;
+flex-shrink: 0;
+top: 286px;
+left: 84px;
+}
+#try{
+position: absolute;
+left: 11px;
+color: #808080;
+font-family: Manrope;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.img1{
+position: absolute;
+width: 412.852px;
+height: 447.647px;
+flex-shrink: 0;
+}
+.img2{
+position: absolute;
+top: 0;
+right: 0;
+width: 757px;
+height: 790px;
+flex-shrink: 0;
+z-index: 1;
+}
+.design {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.enterField{
+  position: absolute;
+  width: 308px;
+height: 37px;
+flex-shrink: 0;
+border-radius: 7px;
+border: 1px solid #FFF;
+background: #000;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+top: 223px;
+left: 84px;
+}
+.enterField2{
+position: absolute;
+width: 308px;
+height: 37px;
+flex-shrink: 0;
+border-radius: 7px;
+border: 1px solid #FFF;
+background: #000;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+top: 329px;
+left: 84px;
 }
